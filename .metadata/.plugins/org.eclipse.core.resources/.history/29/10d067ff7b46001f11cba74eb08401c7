@@ -1,0 +1,5 @@
+package in.sbms.controller;
+
+public class WelcomeController {
+
+}

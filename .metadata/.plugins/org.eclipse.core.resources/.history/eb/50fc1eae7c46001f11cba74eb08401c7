@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: SPRINGBOOT-REST-APPLICATION
+    
+server:
+  port: 9191
+  
+  
+msg:
+  welcomemsg: WELCOME TO REST

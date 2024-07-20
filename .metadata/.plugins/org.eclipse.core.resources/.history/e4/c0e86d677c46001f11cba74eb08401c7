@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: 01-SBREST-APP
+
+msg:
+  welcomemsg: WELCOME TO REST

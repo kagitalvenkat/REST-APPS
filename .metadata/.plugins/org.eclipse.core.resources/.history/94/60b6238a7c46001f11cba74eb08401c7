@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: 01-SBREST-APP
+server:
+  port:9191
+msg:
+  welcomemsg: WELCOME TO REST
