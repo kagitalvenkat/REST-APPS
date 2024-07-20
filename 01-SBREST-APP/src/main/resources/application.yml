@@ -2,9 +2,23 @@ spring:
   application:
     name: SPRINGBOOT-REST-APPLICATION
     
+    # Hibernate ddl auto (create, create-drop, validate, update)
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+      
+# Oracle settings    
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:XE
+    username: SYSTEM
+    password: SYSTEM
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    
 server:
   port: 9191
   
+   
   
 msg:
   welcomemsg: WELCOME TO REST APP.
