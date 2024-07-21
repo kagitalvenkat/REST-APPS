@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: REST-WEBCLIENT
+    
+    
+server:
+  port: 9393

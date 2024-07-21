@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: REST-TEMPLATE
+
+    
+server:
+  port: 9292
