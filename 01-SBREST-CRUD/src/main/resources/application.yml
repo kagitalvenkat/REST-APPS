@@ -1,14 +1,13 @@
 spring:
   application:
-    name: SPRINGBOOT-REST-APPLICATION
+    name: RESTF-CRUD-APP
     
     # Hibernate ddl auto (create, create-drop, validate, update)
   jpa:
     hibernate:
       ddl-auto: update
-      show-sql: true
-      
-# Oracle settings    
+    show-sql: true
+ # Oracle settings    
   datasource:
     url: jdbc:oracle:thin:@localhost:1521:XE
     username: SYSTEM

@@ -19,7 +19,7 @@ import in.sbms.entity.Student;
 import in.sbms.service.StudentService;
 
 @RestController
-public class WelcomeController {
+public class CrudRestController {
 	
 	@Autowired
 	private StudentService service;
