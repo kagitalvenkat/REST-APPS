@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: API-GATEWAY
+    
+server:
+  port: 9119
+
+
+#  ==ENABLE CUSTOM PORT ============
+#eureka:
+#  client:
+#    service-url: 
+#      defaultZone: ${DISCOVERY_URL:http://localhost:9898}/eureka/
+
+zuul:
+  prefix: /ms
+  routes:
+    welcome:
+      path: /api1/**
+      serviceId: WELCOME-CLIENT
+    greet:
+      path: /api2/**
+      serviceId: FEIGN-CLIENT
