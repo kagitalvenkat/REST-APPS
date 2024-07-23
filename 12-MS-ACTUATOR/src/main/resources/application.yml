@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ACTUATORS
+    
+server:
+  port: 9129
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        exclude: caches, health, info, env, loggers 
+  endpoint:
+    shutdown:
+      enabled: true
