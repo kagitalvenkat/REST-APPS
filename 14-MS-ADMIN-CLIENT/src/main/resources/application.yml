@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: ADMIN-CLIENT
+  boot:
+    admin:
+      client:
+        url: http://localhost:9139/
+   
+server:
+  port: 9149
+   
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        
