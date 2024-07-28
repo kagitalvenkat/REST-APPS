@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: REDIS-CACHE
+server:
+  port: 9189
