@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: CIRCUTE-BREAKER
+
+server:
+  port: 9179
