@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: RESTTEMPLATE
+    
+server:
+  port: 9209
